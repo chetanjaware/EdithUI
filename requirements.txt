@@ -1,6 +1,5 @@
 streamlit
 pandas
-subprocess
 os
 tempfile
 json
