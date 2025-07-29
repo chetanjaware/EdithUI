@@ -1,9 +1,7 @@
 streamlit
-from streamlit_option_menu import option_menu
 pandas
 matplotlib.pyplot
 subprocess
 os
 tempfile
-from xml.etree.ElementTree import Element, SubElement
 json
