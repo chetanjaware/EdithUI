@@ -1,9 +1,9 @@
-import streamlit as st
+streamlit as st
 from streamlit_option_menu import option_menu
-import pandas as pd
-import matplotlib.pyplot as plt
-import subprocess
-import os
-import tempfile
+pandas as pd
+matplotlib.pyplot as plt
+subprocess
+os
+tempfile
 from xml.etree.ElementTree import Element, SubElement
-import json
+json
