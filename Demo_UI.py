@@ -47,7 +47,7 @@ def get_base64_image(image_path):
     return f"data:image/png;base64,{encoded}"
 
 # Replace with your path
-img_path = "C:/Users/HP/Downloads/Edith/pwc_logo.png"
+#img_path = "C:/Users/HP/Downloads/Edith/pwc_logo.png"
 #img_path = "pwc_logo.png"
 background_image = get_base64_image(img_path)
 
@@ -813,3 +813,4 @@ elif selected == "Observations":
     notes = st.text_area("Enter notes or findings:", height=200)
     if st.button("Save Note"):
         st.success("🗒️ Observation saved successfully!")
+
