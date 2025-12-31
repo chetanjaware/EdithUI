@@ -2,12 +2,3 @@ streamlit
 pandas
 matplotlib
 streamlit-option-menu
-os
-tempfile
-json
-xml.etree.Element
-minidom
-base64
-datetime
-signal
-time
