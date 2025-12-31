@@ -58,7 +58,6 @@ st.markdown(f"""
     html, body {{
         font-family: 'Inter', sans-serif;
         background-color: #fff8f1;
-        #background-image: url("{background_image}");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: top right;
@@ -813,5 +812,6 @@ elif selected == "Observations":
     notes = st.text_area("Enter notes or findings:", height=200)
     if st.button("Save Note"):
         st.success("🗒️ Observation saved successfully!")
+
 
 
